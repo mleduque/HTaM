@@ -409,8 +409,6 @@ ACTION_IF EE_GAME BEGIN
   ADD_JOURNAL @1025 @1026 @1038 @1039 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/setup.tra~ 
 END 
 
-AT_INTERACTIVE_EXIT ~VIEW HerThiMoney/readme/%LANGUAGE%/readme.pdf~
-
 
 
 
@@ -1158,8 +1156,6 @@ COPY "%MOD_FOLDER%/cre/bdoffscr.cre" override
 COPY "%MOD_FOLDER%/spl/bdoffscr.spl" override
 END
 
-AT_INTERACTIVE_EXIT ~VIEW HerThiMoney/readme/%LANGUAGE%/readme.pdf~
-
 //
 //
 //
@@ -1603,8 +1599,6 @@ COPY_EXISTING ~ar0307.are~ ~override~
 	END
 	BUT_ONLY_IF_IT_CHANGES
 
-AT_INTERACTIVE_EXIT ~VIEW HerThiMoney/readme/%LANGUAGE%/readme.pdf~
-
 
 //
 //
@@ -1817,10 +1811,6 @@ END
 
 COPY_EXISTING ~WAUKSQU.cre~ ~override\WAUKSQU.cre~
 WRITE_ASCII 0x280 ~ANbelka~ (32)
-
-AT_INTERACTIVE_EXIT ~VIEW HerThiMoney/readme/%LANGUAGE%/readme.pdf~
-
-
 
 
 //
